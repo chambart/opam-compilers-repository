@@ -1,0 +1,15 @@
+opam-version: "1"
+name: "ocamljava-preview"
+src: "http://ocamljava.x9c.fr/preview/ocamljava-2.0-early-access2.tar.gz"
+build: [
+  ["cp" "bin/common" "bin/camlp4o" "bin/camlp4of" "bin/camlp4oof" "bin/camlp4orf" "bin/camlp4r"
+        "bin/camlp4rf" "bin/ocaml" "bin/ocamlc" "bin/ocamldep" "bin/ocamldoc" "bin/ocamljava"
+        "bin/ocamllex" "bin/ocamlrun"
+        "%{bin}%"]
+  ["cp" "lib/camlp4boot.jar" "lib/camlp4.jar" "lib/camlp4of.jar" "lib/camlp4o.jar" "lib/camlp4oof.jar"
+        "lib/camlp4orf.jar" "lib/camlp4prof.jar" "lib/camlp4rf.jar" "lib/camlp4r.jar" "lib/mkcamlp4.jar"
+        "lib/ocamlc.jar" "lib/ocamldep.jar" "lib/ocamldoc.jar" "lib/ocaml.jar" "lib/ocamljava.jar"
+        "lib/ocamllex.jar" "lib/ocaml-lib-files.jar" "lib/ocamlrun.jar"
+        "%{lib}%"]
+]
+packages : [ "base-unix" "base-bigarray" "base-threads" ]
