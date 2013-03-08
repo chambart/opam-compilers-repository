@@ -1,6 +1,6 @@
 opam-version: "1"
 name: "ocamljava-preview"
-src: "http://ocamljava.x9c.fr/preview/ocamljava-2.0-early-access2.tar.gz"
+src: "http://ocamljava.x9c.fr/preview/ocamljava-2.0-early-access3.tar.gz"
 build: [
   ["cp" "bin/common" "bin/camlp4o" "bin/camlp4of" "bin/camlp4oof" "bin/camlp4orf" "bin/camlp4r"
         "bin/camlp4rf" "bin/ocaml" "bin/ocamlc" "bin/ocamldep" "bin/ocamldoc" "bin/ocamljava"
