@@ -1,0 +1,7 @@
+opam-version: "1"
+maintainer: "opam-devel@lists.ocaml.org"
+build: [
+  ["ocamlopt" "kb.ml" "-o" "bench-kb"]
+  ["ocamlopt" "noize.ml" "-o" "bench-noize"]
+  ["ocamlopt" "set.ml" "-o" "bench-set"]
+]
