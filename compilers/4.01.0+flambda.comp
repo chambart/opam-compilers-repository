@@ -1,6 +1,6 @@
 opam-version: "1"
 version: "4.01.0+flambda"
-src: "https://github.com/chambart/ocaml/archive/flambda.tar.gz"
+src: "https://github.com/chambart/ocaml-1/archive/flambda_4.01.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
