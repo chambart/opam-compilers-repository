@@ -3,13 +3,10 @@ version: "4.01.0+flambda"
 src: "https://github.com/chambart/ocaml-1/archive/flambda_4.01.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
-  [make "world"]
+  [make "core"]
   [make "opt-core"]
-  [make "otherlibraries"]
-  [make "otherlibrariesopt"]
-  [make "ocamldoc"]
-  [make "ocamldoc.opt"]
   [make "world.opt"]
+  [make "world"]
   [make "install"]
 ]
 packages: [
